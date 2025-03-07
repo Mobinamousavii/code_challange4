@@ -1,7 +1,7 @@
 from django.db import models
-from alibaba.airplane.models import Airplane
-from alibaba.bus.models import Bus
-from alibaba.train.models import Train
+from airplane.models import Airplane
+from bus.models import Bus
+from train.models import Train
 
 class Passenger(models.Model):
     name = models.CharField(max_length=100)
